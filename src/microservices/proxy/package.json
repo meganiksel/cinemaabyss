@@ -1,0 +1,13 @@
+{
+  "name": "cinemaabyss-proxy-service",
+  "version": "1.0.0",
+  "description": "API Gateway / Proxy service with Strangler Fig pattern",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "http-proxy-middleware": "^3.0.3"
+  }
+}

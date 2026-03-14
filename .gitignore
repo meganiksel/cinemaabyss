@@ -48,6 +48,10 @@ kubeconfig
 *.kubeconfig
 .kube/
 
+# Kubernetes secrets (contain tokens, passwords, credentials)
+src/kubernetes/secret.yaml
+src/kubernetes/dockerconfigsecret.yaml
+
 # Environment variables
 .env
 .env.local
